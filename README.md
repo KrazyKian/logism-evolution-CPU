@@ -1,4 +1,5 @@
 # logism-evolution-CPU
+(for a better formatted README, please access the .docx manual)
 A virtual single-cycle datapath in Logism Evolution with an assembler in Python. 
 
 This machine has 32 general purpose registers. Each register can store 8 bytes, and data memory is byte addressed with 2^16 total bytes. The machine is little endian. Register 31 is the zero register and register 30 is the link register. X0 is the LEDoutput register (this means that when the program halts, X0 is displayed on the LED). All instructions are 32 bits.
